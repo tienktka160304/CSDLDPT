@@ -1,13 +1,3 @@
-# Tài liệu Backend - Hệ thống lưu trữ và tìm kiếm ảnh đồ vật tương đồng
-
-## 1. Giới thiệu
-
-Backend này phục vụ **phần 2** của bài tập lớn môn **Hệ cơ sở dữ liệu đa phương tiện**: xây dựng cơ sở dữ liệu và cơ chế tìm kiếm ảnh đồ vật tương đồng dựa trên các đặc trưng ảnh đã trích xuất ở phần 1.
-
-Hệ thống không so sánh ảnh trực tiếp bằng từng điểm ảnh, mà chuyển mỗi ảnh thành một **vector đặc trưng**. Vector này chứa thông tin về màu sắc, texture, hình dạng và keypoint. Khi người dùng truy vấn bằng một ảnh, hệ thống sẽ tính độ tương đồng giữa vector của ảnh truy vấn và vector của toàn bộ ảnh trong cơ sở dữ liệu, sau đó trả về **top 5 ảnh giống nhất**.
-
----
-
 ## 2. Mục tiêu của backend
 
 Backend được xây dựng để thực hiện các nhiệm vụ chính sau:
